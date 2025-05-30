@@ -710,7 +710,18 @@ th {
   height: 100%;
   /* Full height of the viewport */
 }
-
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .decalogo-container-main {
+    background-position: -420px center;
+  }
+}
+@media (max-width: 768px) {
+  .esponal-longtext {
+    position: relative;
+    top: 2px;
+  }
+}
 
 .checkmark-3 {
   display: inline-block;
@@ -816,6 +827,7 @@ right-column2 {
 
 .tall-table-54 {
   min-height: 100px;
+
 }
 .tall-table-46 {
   min-height: 100px;
@@ -825,10 +837,12 @@ right-column2 {
   text-align: center;
 }
 
-#right-column-54 {
+#right-column-46 {
   position: relative;
   top: 10px;
-  height: 200px;
+  background-color: #fff;
+  flex: 1;
+  
 }
 
 .text-56 {
@@ -902,3 +916,24 @@ right-column2 {
 #rebajas-texttop{
   color: #2563eb;
 }
+.main-logosgp{
+  padding-right: 5px;
+}
+.fill-line-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; /* Keep text in one line */
+}
+
+.dashed-line {
+  flex-grow: 1;
+  border-bottom: 1px dotted #000; /* Dashed or dotted */
+  margin-left: 6px;
+  height: 1em;
+}
+
+
